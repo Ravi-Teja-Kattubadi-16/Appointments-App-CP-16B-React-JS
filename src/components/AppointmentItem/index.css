@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.list-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid #b5b7c4;
+  padding-left: 18px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  border-radius: 15px;
+  width: 320px;
+  font-family: 'Roboto';
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+.star-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.list-item-heading {
+  font-size: 17px;
+}
+.star-button {
+  border: 0px solid transparent;
+  background-color: transparent;
+}
+.list-item-description {
+  font-size: 17px;
+  color: #b5b7c4;
+  margin-top: 3px;
+}
